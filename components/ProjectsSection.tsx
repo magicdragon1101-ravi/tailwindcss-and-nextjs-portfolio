@@ -1,8 +1,8 @@
-import React from "react"
-import Image from "next/image"
-import Link from "next/link"
-import SlideUp from "./SlideUp"
-import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import SlideUp from "./SlideUp";
+import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
@@ -22,13 +22,12 @@ const projects = [
   },
   {
     name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
+    description: "Kator Family Photos is a photos and video digitization service in the LA area.",
     image: "/familyphotos.png",
     github: "https://github.com/hqasmei/katorfamilyphotos",
     link: "https://katorfamilyphotos.com/",
   },
-]
+];
 
 const ProjectsSection = () => {
   return (
@@ -62,10 +61,7 @@ const ProjectsSection = () => {
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
                       <Link href={project.github} target="_blank">
-                        <BsGithub
-                          size={30}
-                          className="hover:-translate-y-1 transition-transform cursor-pointer"
-                        />
+                        <BsGithub size={30} className="hover:-translate-y-1 transition-transform cursor-pointer" />
                       </Link>
                       <Link href={project.link} target="_blank">
                         <BsArrowUpRightSquare
@@ -78,12 +74,11 @@ const ProjectsSection = () => {
                 </div>
               </SlideUp>
             </div>
-          )
+          );
         })}
-        
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default ProjectsSection
+export default ProjectsSection;
