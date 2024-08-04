@@ -10,21 +10,21 @@ const projects = [
     description:
       "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
     image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
+    github: "https://github.com/magicdragon1101-ravi/thankful-thoughts",
     link: "https://thankfulthoughts.io/",
   },
   {
     name: "PlatoIO",
     description: "PlatoIO is a to do list app that built using the PERN stack.",
     image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
+    github: "https://github.com/magicdragon1101-ravi/platoio",
     link: "https://platoio.com/register",
   },
   {
     name: "Kator Family Photos",
     description: "Kator Family Photos is a photos and video digitization service in the LA area.",
     image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
+    github: "https://github.com/magicdragon1101-ravi/katorfamilyphotos",
     link: "https://katorfamilyphotos.com/",
   },
 ];
