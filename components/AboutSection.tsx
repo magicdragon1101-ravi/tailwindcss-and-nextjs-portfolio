@@ -28,7 +28,7 @@ const AboutSection = () => {
           <div className="md:w-1/2 ">
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">Get to know me!</h1>
             <p>
-              Hi, my name is Hosna and I am a <span className="font-bold">{"highly ambitious"}</span>,
+              Hi, my name is Ravi and I am a <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> software engineer based in Los Angeles, CA.
             </p>
